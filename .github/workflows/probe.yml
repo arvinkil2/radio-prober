@@ -3,7 +3,7 @@ name: probe-servers
 on:
   workflow_dispatch:
   schedule:
-    - cron: "17 */3 * * *"
+    - cron: "17 5 * * 1"
 
 permissions:
   contents: write
@@ -15,17 +15,22 @@ concurrency:
 jobs:
   probe:
     runs-on: ubuntu-latest
-    timeout-minutes: 55
+    timeout-minutes: 75
+    strategy:
+      fail-fast: false
+      max-parallel: 20
+      matrix:
+        shard: ["000", "001", "002", "003", "004", "005", "006", "007", "008", "009", "010", "011", "012", "013", "014", "015", "016", "017", "018", "019", "020", "021", "022", "023", "024", "025", "026", "027", "028", "029", "030", "031", "032", "033", "034", "035", "036", "037", "038", "039", "040", "041", "042"]
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Probe next batch
+      - name: Probe shard
         env:
-          PROBE_TIME_BUDGET: "2700"
-          PROBE_WORKERS: "32"
-        run: python3 prober.py
+          PROBE_TIME_BUDGET: "3300"
+          PROBE_WORKERS: "96"
+        run: python3 prober.py --shard ${{ matrix.shard }}
       - name: Commit results
         run: |
           git config user.name "radio-prober"
@@ -33,7 +38,15 @@ jobs:
           git add results/
           if git diff --cached --quiet; then
             echo "no new results"
-          else
-            git commit -m "probe results $(date -u +%FT%TZ)"
-            git push
+            exit 0
           fi
+          git commit -m "probe results shard ${{ matrix.shard }} $(date -u +%FT%TZ)"
+          for i in 1 2 3 4 5 6; do
+            if git pull --rebase origin main && git push; then
+              echo "pushed"
+              exit 0
+            fi
+            sleep $((RANDOM % 8 + 3))
+          done
+          echo "push failed after retries"
+          exit 1

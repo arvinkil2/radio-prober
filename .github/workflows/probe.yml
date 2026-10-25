@@ -1,0 +1,39 @@
+name: probe-servers
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 */3 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: probe-servers
+  cancel-in-progress: false
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Probe next batch
+        env:
+          PROBE_TIME_BUDGET: "2700"
+          PROBE_WORKERS: "32"
+        run: python3 prober.py
+      - name: Commit results
+        run: |
+          git config user.name "radio-prober"
+          git config user.email "radio-prober@localhost"
+          git add results/
+          if git diff --cached --quiet; then
+            echo "no new results"
+          else
+            git commit -m "probe results $(date -u +%FT%TZ)"
+            git push
+          fi

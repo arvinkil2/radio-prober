@@ -1,0 +1,6 @@
+{
+ "stage": "rcast",
+ "implemented": false,
+ "note": "RCast directory crawl not yet implemented (stage 3). Route: https://rcast.net/dir, 2,694 HTML pages, stream URL per entry; family is 53,886 queue endpoints. Nothing was fetched.",
+ "at": "2026-10-26T17:01:18Z"
+}

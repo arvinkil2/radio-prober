@@ -1,0 +1,47 @@
+[
+ {
+  "ID": 100325158,
+  "Name": "PaisaEstereo.com",
+  "Format": "audio/aacp",
+  "Bitrate": 28,
+  "Genre": "PaisaEstereo.com, Arepa Estereo,  Radio arepa, tango, popular, guasca, bolero, ranchera, vallenato,merengue, salsa, tropical, plancha, romantica, emisoras de Colombia, Emisoras de Antioquia, Emisora Paisa, Emisoras de Me\u0001",
+  "CurrentTrack": "merengue QUE SIGA AMANDOTE carlos alfredo exito",
+  "Listeners": 30,
+  "IsRadionomy": false,
+  "IceUrl": "https://www.PaisaEstereo.com",
+  "StreamUrl": null,
+  "AACEnabled": 1,
+  "IsPlaying": false,
+  "IsAACEnabled": true
+ },
+ {
+  "ID": 100326164,
+  "Name": "la bailona onnline",
+  "Format": "audio/aacp",
+  "Bitrate": 64,
+  "Genre": "tropical ranchera",
+  "CurrentTrack": "Hi-Fi Internet Stream",
+  "Listeners": 1,
+  "IsRadionomy": false,
+  "IceUrl": "http://uk4freenew.listen2myradio.com:4629/index.html",
+  "StreamUrl": null,
+  "AACEnabled": 1,
+  "IsPlaying": false,
+  "IsAACEnabled": true
+ },
+ {
+  "ID": 99350624,
+  "Name": "La Ley-Victoria",
+  "Format": "audio/mpeg",
+  "Bitrate": 128,
+  "Genre": "Regional Mexican Banda Ranchera Norteno",
+  "CurrentTrack": "",
+  "Listeners": 0,
+  "IsRadionomy": false,
+  "IceUrl": "http://www.shoutcast.com",
+  "StreamUrl": null,
+  "AACEnabled": 0,
+  "IsPlaying": false,
+  "IsAACEnabled": false
+ }
+]

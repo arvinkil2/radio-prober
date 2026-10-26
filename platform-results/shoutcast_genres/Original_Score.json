@@ -1,0 +1,32 @@
+[
+ {
+  "ID": 1465571,
+  "Name": "100% Radio-Zoom.de",
+  "Format": "audio/mpeg",
+  "Bitrate": 192,
+  "Genre": "Pop Rock Country Original Score Decades Electronic",
+  "CurrentTrack": "Pink Floyd - Another Brick In the Wall, Pt. 2",
+  "Listeners": 0,
+  "IsRadionomy": false,
+  "IceUrl": "",
+  "StreamUrl": null,
+  "AACEnabled": 0,
+  "IsPlaying": false,
+  "IsAACEnabled": false
+ },
+ {
+  "ID": 1739931,
+  "Name": "100% Radio-Zoom.de",
+  "Format": "audio/aacp",
+  "Bitrate": 32,
+  "Genre": "Pop Rock Country Original Score Decades Electronic",
+  "CurrentTrack": "Pink Floyd - Another Brick In the Wall, Pt. 2",
+  "Listeners": 0,
+  "IsRadionomy": false,
+  "IceUrl": "http://www.radio-zoom.de",
+  "StreamUrl": null,
+  "AACEnabled": 1,
+  "IsPlaying": false,
+  "IsAACEnabled": true
+ }
+]

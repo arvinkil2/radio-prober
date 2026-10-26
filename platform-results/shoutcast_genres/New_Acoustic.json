@@ -1,0 +1,47 @@
+[
+ {
+  "ID": 99514946,
+  "Name": "CALMRADIO.COM - Relaxing Guitar",
+  "Format": "audio/mpeg",
+  "Bitrate": 128,
+  "Genre": "New Acoustic",
+  "CurrentTrack": "Keith Driskill - A Time Of Innocence - Miracle Of Forgiveness",
+  "Listeners": 6,
+  "IsRadionomy": false,
+  "IceUrl": "https://calmradio.com",
+  "StreamUrl": null,
+  "AACEnabled": 0,
+  "IsPlaying": false,
+  "IsAACEnabled": false
+ },
+ {
+  "ID": 99513952,
+  "Name": "CALMRADIO.COM - Solo Guitar",
+  "Format": "audio/mpeg",
+  "Bitrate": 128,
+  "Genre": "New Acoustic",
+  "CurrentTrack": "Michael Kent Smith - After the Harvest - The Family Tree",
+  "Listeners": 5,
+  "IsRadionomy": false,
+  "IceUrl": "https://calmradio.com",
+  "StreamUrl": null,
+  "AACEnabled": 0,
+  "IsPlaying": false,
+  "IsAACEnabled": false
+ },
+ {
+  "ID": 99515838,
+  "Name": "CALMRADIO.COM - Peaceful Guitar",
+  "Format": "audio/mpeg",
+  "Bitrate": 128,
+  "Genre": "New Acoustic",
+  "CurrentTrack": "Michelle Qureshi - Within - Shores of Atlantis",
+  "Listeners": 3,
+  "IsRadionomy": false,
+  "IceUrl": "https://calmradio.com",
+  "StreamUrl": null,
+  "AACEnabled": 0,
+  "IsPlaying": false,
+  "IsAACEnabled": false
+ }
+]

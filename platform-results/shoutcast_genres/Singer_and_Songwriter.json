@@ -1,0 +1,47 @@
+[
+ {
+  "ID": 1359451,
+  "Name": "INDIE AM",
+  "Format": "audio/mpeg",
+  "Bitrate": 192,
+  "Genre": "Singer and Songwriter",
+  "CurrentTrack": "",
+  "Listeners": 6,
+  "IsRadionomy": false,
+  "IceUrl": "http://www.indieam.com.mx",
+  "StreamUrl": null,
+  "AACEnabled": 0,
+  "IsPlaying": false,
+  "IsAACEnabled": false
+ },
+ {
+  "ID": 99415174,
+  "Name": "ASC Edi\u00e7\u00f5es",
+  "Format": "",
+  "Bitrate": 0,
+  "Genre": "Singer and Songwriter",
+  "CurrentTrack": "",
+  "Listeners": 0,
+  "IsRadionomy": false,
+  "IceUrl": "http://www.ascedicoes.pt",
+  "StreamUrl": null,
+  "AACEnabled": 0,
+  "IsPlaying": false,
+  "IsAACEnabled": false
+ },
+ {
+  "ID": 99416410,
+  "Name": "Hugyaw Radio Online",
+  "Format": "",
+  "Bitrate": 0,
+  "Genre": "Singer and Songwriter",
+  "CurrentTrack": "",
+  "Listeners": 0,
+  "IsRadionomy": false,
+  "IceUrl": "www.hugyaw.com",
+  "StreamUrl": null,
+  "AACEnabled": 0,
+  "IsPlaying": false,
+  "IsAACEnabled": false
+ }
+]

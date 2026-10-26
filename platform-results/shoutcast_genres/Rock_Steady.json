@@ -1,0 +1,32 @@
+[
+ {
+  "ID": 99617424,
+  "Name": "937 The Pig",
+  "Format": "audio/mpeg",
+  "Bitrate": 192,
+  "Genre": "Rock Steady",
+  "CurrentTrack": "Jonny Lang - Louise - Single",
+  "Listeners": 6,
+  "IsRadionomy": false,
+  "IceUrl": "",
+  "StreamUrl": null,
+  "AACEnabled": 0,
+  "IsPlaying": false,
+  "IsAACEnabled": false
+ },
+ {
+  "ID": 473897,
+  "Name": "Black Roots Radio - Lovers Rock Radio",
+  "Format": "",
+  "Bitrate": 0,
+  "Genre": "Rock Steady",
+  "CurrentTrack": "",
+  "Listeners": 0,
+  "IsRadionomy": false,
+  "IceUrl": "http://loversrock.net",
+  "StreamUrl": null,
+  "AACEnabled": 0,
+  "IsPlaying": false,
+  "IsAACEnabled": false
+ }
+]

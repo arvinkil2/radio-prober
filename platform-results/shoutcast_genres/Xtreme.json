@@ -1,0 +1,32 @@
+[
+ {
+  "ID": 1806486,
+  "Name": "test 21 mars4",
+  "Format": "",
+  "Bitrate": 0,
+  "Genre": "Xtreme",
+  "CurrentTrack": "",
+  "Listeners": 0,
+  "IsRadionomy": false,
+  "IceUrl": "",
+  "StreamUrl": null,
+  "AACEnabled": 0,
+  "IsPlaying": false,
+  "IsAACEnabled": false
+ },
+ {
+  "ID": 99433384,
+  "Name": "Amboid Cloud",
+  "Format": "",
+  "Bitrate": 0,
+  "Genre": "Xtreme",
+  "CurrentTrack": "",
+  "Listeners": 0,
+  "IsRadionomy": false,
+  "IceUrl": "amboid.cloud",
+  "StreamUrl": null,
+  "AACEnabled": 0,
+  "IsPlaying": false,
+  "IsAACEnabled": false
+ }
+]

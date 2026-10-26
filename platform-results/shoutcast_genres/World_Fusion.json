@@ -1,0 +1,62 @@
+[
+ {
+  "ID": 99519674,
+  "Name": "CALMRADIO.COM - Persia",
+  "Format": "audio/mpeg",
+  "Bitrate": 128,
+  "Genre": "World Fusion",
+  "CurrentTrack": "Calm Radio - This Channel is reserved for Premium Members - Upgrade to Premium",
+  "Listeners": 2,
+  "IsRadionomy": false,
+  "IceUrl": "https://calmradio.com",
+  "StreamUrl": null,
+  "AACEnabled": 0,
+  "IsPlaying": false,
+  "IsAACEnabled": false
+ },
+ {
+  "ID": 99519659,
+  "Name": "CALMRADIO.COM - Fado",
+  "Format": "audio/mpeg",
+  "Bitrate": 128,
+  "Genre": "World Fusion",
+  "CurrentTrack": "Calm Radio - This Channel is reserved for Premium Members - Upgrade to Premium",
+  "Listeners": 1,
+  "IsRadionomy": false,
+  "IceUrl": "https://calmradio.com",
+  "StreamUrl": null,
+  "AACEnabled": 0,
+  "IsPlaying": false,
+  "IsAACEnabled": false
+ },
+ {
+  "ID": 99519668,
+  "Name": "CALMRADIO.COM - Orient",
+  "Format": "audio/mpeg",
+  "Bitrate": 128,
+  "Genre": "World Fusion",
+  "CurrentTrack": "Various Artists - Chinese Instrumental Cd2 - 12",
+  "Listeners": 1,
+  "IsRadionomy": false,
+  "IceUrl": "https://calmradio.com",
+  "StreamUrl": null,
+  "AACEnabled": 0,
+  "IsPlaying": false,
+  "IsAACEnabled": false
+ },
+ {
+  "ID": 99373774,
+  "Name": "Deleted 56877865",
+  "Format": "audio/mpeg",
+  "Bitrate": 128,
+  "Genre": "World Fusion",
+  "CurrentTrack": "",
+  "Listeners": 0,
+  "IsRadionomy": false,
+  "IceUrl": "http://www.shoutcast.com",
+  "StreamUrl": null,
+  "AACEnabled": 0,
+  "IsPlaying": false,
+  "IsAACEnabled": false
+ }
+]

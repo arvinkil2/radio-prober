@@ -1,0 +1,62 @@
+[
+ {
+  "ID": 99421060,
+  "Name": "STR - Space Travel Radio [spacetravelradio.de]",
+  "Format": "audio/mpeg",
+  "Bitrate": 128,
+  "Genre": "Space Age Pop",
+  "CurrentTrack": "The Ninjazz - Beautiful People Ugly Mashines",
+  "Listeners": 75,
+  "IsRadionomy": false,
+  "IceUrl": "http://www.spacetravelradio.de",
+  "StreamUrl": null,
+  "AACEnabled": 0,
+  "IsPlaying": false,
+  "IsAACEnabled": false
+ },
+ {
+  "ID": 1313565,
+  "Name": "DivaFm 91.6",
+  "Format": "audio/mpeg",
+  "Bitrate": 128,
+  "Genre": "Space Age Pop",
+  "CurrentTrack": "Chris IDH, KIDFLO - Forever",
+  "Listeners": 11,
+  "IsRadionomy": false,
+  "IceUrl": "http://www.divaradio.gr",
+  "StreamUrl": null,
+  "AACEnabled": 0,
+  "IsPlaying": false,
+  "IsAACEnabled": false
+ },
+ {
+  "ID": 99181659,
+  "Name": "Electronic Music Space",
+  "Format": "",
+  "Bitrate": 0,
+  "Genre": "Space Age Pop",
+  "CurrentTrack": "",
+  "Listeners": 0,
+  "IsRadionomy": false,
+  "IceUrl": "http://www.electronicmusicspace.com",
+  "StreamUrl": null,
+  "AACEnabled": 0,
+  "IsPlaying": false,
+  "IsAACEnabled": false
+ },
+ {
+  "ID": 99578712,
+  "Name": "::.Radio Senty Zaragoza.:: Spania/Romania/Populara",
+  "Format": "audio/mpeg",
+  "Bitrate": 128,
+  "Genre": "Space Age Pop",
+  "CurrentTrack": "\u2705PETRECERE MAXIMA\u2705\u2764\ufe0f2\ufe0f\u20e30\ufe0f\u20e32\ufe0f\u20e36\ufe0f\u20e3 \u2764\ufe0f\u2705 LIVE-DJ PITESTEANU\u2705",
+  "Listeners": 0,
+  "IsRadionomy": false,
+  "IceUrl": "",
+  "StreamUrl": null,
+  "AACEnabled": 0,
+  "IsPlaying": false,
+  "IsAACEnabled": false
+ }
+]

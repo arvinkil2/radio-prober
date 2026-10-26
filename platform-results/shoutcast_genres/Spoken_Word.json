@@ -1,0 +1,62 @@
+[
+ {
+  "ID": 1511253,
+  "Name": "Beton7artradio",
+  "Format": "audio/mpeg",
+  "Bitrate": 128,
+  "Genre": "Spoken Word",
+  "CurrentTrack": "VOULEZ VOUS_261026_jean rio em 2 mont mp3",
+  "Listeners": 8,
+  "IsRadionomy": false,
+  "IceUrl": "http://beton7artradio.gr",
+  "StreamUrl": null,
+  "AACEnabled": 0,
+  "IsPlaying": false,
+  "IsAACEnabled": false
+ },
+ {
+  "ID": 65720,
+  "Name": "Roswell UFO Radio",
+  "Format": "",
+  "Bitrate": 0,
+  "Genre": "Spoken Word",
+  "CurrentTrack": "",
+  "Listeners": 0,
+  "IsRadionomy": false,
+  "IceUrl": "http://roswelluforadio.com",
+  "StreamUrl": null,
+  "AACEnabled": 0,
+  "IsPlaying": false,
+  "IsAACEnabled": false
+ },
+ {
+  "ID": 1734309,
+  "Name": "JCBN",
+  "Format": "",
+  "Bitrate": 0,
+  "Genre": "Spoken Word",
+  "CurrentTrack": "",
+  "Listeners": 0,
+  "IsRadionomy": false,
+  "IceUrl": "",
+  "StreamUrl": null,
+  "AACEnabled": 0,
+  "IsPlaying": false,
+  "IsAACEnabled": false
+ },
+ {
+  "ID": 99416188,
+  "Name": "Jordaens",
+  "Format": "",
+  "Bitrate": 0,
+  "Genre": "Spoken Word",
+  "CurrentTrack": "",
+  "Listeners": 0,
+  "IsRadionomy": false,
+  "IceUrl": "http://jordaens.eu",
+  "StreamUrl": null,
+  "AACEnabled": 0,
+  "IsPlaying": false,
+  "IsAACEnabled": false
+ }
+]

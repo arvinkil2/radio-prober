@@ -1,0 +1,32 @@
+[
+ {
+  "ID": 99217692,
+  "Name": "Wow Machine Radio",
+  "Format": "audio/mpeg",
+  "Bitrate": 128,
+  "Genre": "Eclectic Random Shuffled Diverse Comedy",
+  "CurrentTrack": "clerk",
+  "Listeners": 0,
+  "IsRadionomy": false,
+  "IceUrl": "http://wowmachineradio.earthbus.org",
+  "StreamUrl": null,
+  "AACEnabled": 0,
+  "IsPlaying": false,
+  "IsAACEnabled": false
+ },
+ {
+  "ID": 99415543,
+  "Name": "skyePBX-moh",
+  "Format": "",
+  "Bitrate": 0,
+  "Genre": "Shuffle",
+  "CurrentTrack": "",
+  "Listeners": 0,
+  "IsRadionomy": false,
+  "IceUrl": "https://wwwskyepbx.com",
+  "StreamUrl": null,
+  "AACEnabled": 0,
+  "IsPlaying": false,
+  "IsAACEnabled": false
+ }
+]

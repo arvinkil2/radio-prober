@@ -1,0 +1,17 @@
+[
+ {
+  "ID": 99520133,
+  "Name": "CALMRADIO.COM - Musicals",
+  "Format": "audio/mpeg",
+  "Bitrate": 128,
+  "Genre": "Showtunes",
+  "CurrentTrack": "John Hickok - Aida (Original Broadway Cast Recording - John/Rice) - Aida: Another Pyramid",
+  "Listeners": 3,
+  "IsRadionomy": false,
+  "IceUrl": "https://calmradio.com",
+  "StreamUrl": null,
+  "AACEnabled": 0,
+  "IsPlaying": false,
+  "IsAACEnabled": false
+ }
+]

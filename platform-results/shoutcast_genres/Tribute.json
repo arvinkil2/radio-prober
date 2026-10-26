@@ -1,0 +1,17 @@
+[
+ {
+  "ID": 99623877,
+  "Name": "WHFF On the Go -WHFF Radio",
+  "Format": "audio/mpeg",
+  "Bitrate": 192,
+  "Genre": "Tribute",
+  "CurrentTrack": "1-smooth of night jazz   exquisite jazz piano music   calm background music for relax, chill, read, (1)",
+  "Listeners": 160,
+  "IsRadionomy": false,
+  "IceUrl": "https://whff.radio",
+  "StreamUrl": null,
+  "AACEnabled": 0,
+  "IsPlaying": false,
+  "IsAACEnabled": false
+ }
+]

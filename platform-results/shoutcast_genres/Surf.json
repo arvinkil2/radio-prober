@@ -1,0 +1,17 @@
+[
+ {
+  "ID": 1779249,
+  "Name": "Surf FM Live 102.3 Hossegor FRANCE",
+  "Format": "audio/mpeg",
+  "Bitrate": 140,
+  "Genre": "Surf",
+  "CurrentTrack": "",
+  "Listeners": 38,
+  "IsRadionomy": false,
+  "IceUrl": "http://www.surf-fm.fr",
+  "StreamUrl": null,
+  "AACEnabled": 0,
+  "IsPlaying": false,
+  "IsAACEnabled": false
+ }
+]

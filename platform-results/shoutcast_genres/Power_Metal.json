@@ -1,0 +1,32 @@
+[
+ {
+  "ID": 659803,
+  "Name": "Radio Thunder UK",
+  "Format": "",
+  "Bitrate": 0,
+  "Genre": "Power Metal",
+  "CurrentTrack": "",
+  "Listeners": 0,
+  "IsRadionomy": false,
+  "IceUrl": "http://radio-thunder-uk.playtheradio.com",
+  "StreamUrl": null,
+  "AACEnabled": 0,
+  "IsPlaying": false,
+  "IsAACEnabled": false
+ },
+ {
+  "ID": 99180135,
+  "Name": "Goth'N'Metal",
+  "Format": "",
+  "Bitrate": 0,
+  "Genre": "Power Metal",
+  "CurrentTrack": "",
+  "Listeners": 0,
+  "IsRadionomy": false,
+  "IceUrl": "http://www.goth-n-metal.com",
+  "StreamUrl": null,
+  "AACEnabled": 0,
+  "IsPlaying": false,
+  "IsAACEnabled": false
+ }
+]

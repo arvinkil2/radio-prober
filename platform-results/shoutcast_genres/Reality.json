@@ -1,0 +1,32 @@
+[
+ {
+  "ID": 99623040,
+  "Name": "CKUW Winnipeg Live Radio Stream",
+  "Format": "audio/unknown",
+  "Bitrate": 128,
+  "Genre": "Reality",
+  "CurrentTrack": "Song: Left of the Dial - Artist: Lex Walton - Show: Dept 13",
+  "Listeners": 3,
+  "IsRadionomy": false,
+  "IceUrl": "http://ckuw.ca",
+  "StreamUrl": null,
+  "AACEnabled": 0,
+  "IsPlaying": false,
+  "IsAACEnabled": false
+ },
+ {
+  "ID": 99434944,
+  "Name": "DarkHoody",
+  "Format": "",
+  "Bitrate": 0,
+  "Genre": "Reality",
+  "CurrentTrack": "",
+  "Listeners": 0,
+  "IsRadionomy": false,
+  "IceUrl": "",
+  "StreamUrl": null,
+  "AACEnabled": 0,
+  "IsPlaying": false,
+  "IsAACEnabled": false
+ }
+]

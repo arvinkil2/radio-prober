@@ -1,0 +1,572 @@
+{
+ "stage": "shoutcast",
+ "genres_total": 313,
+ "genres_banked_before": 201,
+ "done": {
+  "New Acoustic": {
+   "genre": "New Acoustic",
+   "http_status": 200,
+   "stations": 3
+  },
+  "New Age": {
+   "genre": "New Age",
+   "http_status": 200,
+   "stations": 200
+  },
+  "New Wave": {
+   "genre": "New Wave",
+   "http_status": 200,
+   "stations": 137
+  },
+  "News": {
+   "genre": "News",
+   "http_status": 200,
+   "stations": 200
+  },
+  "Noise Pop": {
+   "genre": "Noise Pop",
+   "http_status": 200,
+   "stations": 8
+  },
+  "North American": {
+   "genre": "North American",
+   "http_status": 200,
+   "stations": 0
+  },
+  "Old School": {
+   "genre": "Old School",
+   "http_status": 200,
+   "stations": 11
+  },
+  "Old Time": {
+   "genre": "Old Time",
+   "http_status": 200,
+   "stations": 39
+  },
+  "Old Time Radio": {
+   "genre": "Old Time Radio",
+   "http_status": 200,
+   "stations": 38
+  },
+  "Oldies": {
+   "genre": "Oldies",
+   "http_status": 200,
+   "stations": 200
+  },
+  "Opera": {
+   "genre": "Opera",
+   "http_status": 200,
+   "stations": 72
+  },
+  "Orchestral Pop": {
+   "genre": "Orchestral Pop",
+   "http_status": 200,
+   "stations": 0
+  },
+  "Original Score": {
+   "genre": "Original Score",
+   "http_status": 200,
+   "stations": 2
+  },
+  "Other Talk": {
+   "genre": "Other Talk",
+   "http_status": 200,
+   "stations": 200
+  },
+  "Party Mix": {
+   "genre": "Party Mix",
+   "http_status": 200,
+   "stations": 20
+  },
+  "Patriotic": {
+   "genre": "Patriotic",
+   "http_status": 200,
+   "stations": 2
+  },
+  "Piano": {
+   "genre": "Piano",
+   "http_status": 200,
+   "stations": 11
+  },
+  "Piano Rock": {
+   "genre": "Piano Rock",
+   "http_status": 200,
+   "stations": 0
+  },
+  "Political": {
+   "genre": "Political",
+   "http_status": 200,
+   "stations": 82
+  },
+  "Polka": {
+   "genre": "Polka",
+   "http_status": 200,
+   "stations": 38
+  },
+  "Pop": {
+   "genre": "Pop",
+   "http_status": 200,
+   "stations": 200
+  },
+  "Pop Reggae": {
+   "genre": "Pop Reggae",
+   "http_status": 200,
+   "stations": 77
+  },
+  "Post Punk": {
+   "genre": "Post Punk",
+   "http_status": 200,
+   "stations": 17
+  },
+  "Power Metal": {
+   "genre": "Power Metal",
+   "http_status": 200,
+   "stations": 2
+  },
+  "Power Pop": {
+   "genre": "Power Pop",
+   "http_status": 200,
+   "stations": 41
+  },
+  "Praise and Worship": {
+   "genre": "Praise and Worship",
+   "http_status": 200,
+   "stations": 200
+  },
+  "Prog Rock": {
+   "genre": "Prog Rock",
+   "http_status": 200,
+   "stations": 137
+  },
+  "Progressive": {
+   "genre": "Progressive",
+   "http_status": 200,
+   "stations": 59
+  },
+  "Progressive Metal": {
+   "genre": "Progressive Metal",
+   "http_status": 200,
+   "stations": 32
+  },
+  "Psychedelic": {
+   "genre": "Psychedelic",
+   "http_status": 200,
+   "stations": 93
+  },
+  "Public Radio": {
+   "genre": "Public Radio",
+   "http_status": 200,
+   "stations": 200
+  },
+  "Punk": {
+   "genre": "Punk",
+   "http_status": 200,
+   "stations": 200
+  },
+  "Quiet Storm": {
+   "genre": "Quiet Storm",
+   "http_status": 200,
+   "stations": 1
+  },
+  "R&B and Urban": {
+   "genre": "R&B and Urban",
+   "http_status": 200,
+   "stations": 200
+  },
+  "Ragga": {
+   "genre": "Ragga",
+   "http_status": 200,
+   "stations": 15
+  },
+  "Rainy Day Mix": {
+   "genre": "Rainy Day Mix",
+   "http_status": 200,
+   "stations": 0
+  },
+  "Ranchera": {
+   "genre": "Ranchera",
+   "http_status": 200,
+   "stations": 3
+  },
+  "Rap": {
+   "genre": "Rap",
+   "http_status": 200,
+   "stations": 200
+  },
+  "Rap Metal": {
+   "genre": "Rap Metal",
+   "http_status": 200,
+   "stations": 0
+  },
+  "Reality": {
+   "genre": "Reality",
+   "http_status": 200,
+   "stations": 2
+  },
+  "Reggae": {
+   "genre": "Reggae",
+   "http_status": 200,
+   "stations": 200
+  },
+  "Reggae Roots": {
+   "genre": "Reggae Roots",
+   "http_status": 200,
+   "stations": 54
+  },
+  "Reggaeton": {
+   "genre": "Reggaeton",
+   "http_status": 200,
+   "stations": 200
+  },
+  "Regional Mexican": {
+   "genre": "Regional Mexican",
+   "http_status": 200,
+   "stations": 22
+  },
+  "Rock": {
+   "genre": "Rock",
+   "http_status": 200,
+   "stations": 200
+  },
+  "Rock & Roll": {
+   "genre": "Rock & Roll",
+   "http_status": 200,
+   "stations": 200
+  },
+  "Rock Steady": {
+   "genre": "Rock Steady",
+   "http_status": 200,
+   "stations": 2
+  },
+  "Rockabilly": {
+   "genre": "Rockabilly",
+   "http_status": 200,
+   "stations": 129
+  },
+  "Romantic": {
+   "genre": "Romantic",
+   "http_status": 200,
+   "stations": 200
+  },
+  "Russian": {
+   "genre": "Russian",
+   "http_status": 200,
+   "stations": 13
+  },
+  "Salsa": {
+   "genre": "Salsa",
+   "http_status": 200,
+   "stations": 200
+  },
+  "Samba": {
+   "genre": "Samba",
+   "http_status": 200,
+   "stations": 30
+  },
+  "Scanner": {
+   "genre": "Scanner",
+   "http_status": 200,
+   "stations": 7
+  },
+  "Seasonal and Holiday": {
+   "genre": "Seasonal and Holiday",
+   "http_status": 200,
+   "stations": 200
+  },
+  "Sermons and Services": {
+   "genre": "Sermons and Services",
+   "http_status": 200,
+   "stations": 10
+  },
+  "Sexy": {
+   "genre": "Sexy",
+   "http_status": 200,
+   "stations": 0
+  },
+  "Showtunes": {
+   "genre": "Showtunes",
+   "http_status": 200,
+   "stations": 1
+  },
+  "Shuffle": {
+   "genre": "Shuffle",
+   "http_status": 200,
+   "stations": 2
+  },
+  "Singer and Songwriter": {
+   "genre": "Singer and Songwriter",
+   "http_status": 200,
+   "stations": 3
+  },
+  "Ska": {
+   "genre": "Ska",
+   "http_status": 200,
+   "stations": 77
+  },
+  "Smooth Jazz": {
+   "genre": "Smooth Jazz",
+   "http_status": 200,
+   "stations": 200
+  },
+  "Soca": {
+   "genre": "Soca",
+   "http_status": 200,
+   "stations": 9
+  },
+  "Soft Rock": {
+   "genre": "Soft Rock",
+   "http_status": 200,
+   "stations": 200
+  },
+  "Soul": {
+   "genre": "Soul",
+   "http_status": 200,
+   "stations": 200
+  },
+  "Soundtracks": {
+   "genre": "Soundtracks",
+   "http_status": 200,
+   "stations": 200
+  },
+  "South American": {
+   "genre": "South American",
+   "http_status": 200,
+   "stations": 8
+  },
+  "Southern Gospel": {
+   "genre": "Southern Gospel",
+   "http_status": 200,
+   "stations": 9
+  },
+  "Space Age Pop": {
+   "genre": "Space Age Pop",
+   "http_status": 200,
+   "stations": 4
+  },
+  "Spiritual": {
+   "genre": "Spiritual",
+   "http_status": 200,
+   "stations": 200
+  },
+  "Spoken Word": {
+   "genre": "Spoken Word",
+   "http_status": 200,
+   "stations": 4
+  },
+  "Sports": {
+   "genre": "Sports",
+   "http_status": 200,
+   "stations": 200
+  },
+  "Surf": {
+   "genre": "Surf",
+   "http_status": 200,
+   "stations": 1
+  },
+  "Swing": {
+   "genre": "Swing",
+   "http_status": 200,
+   "stations": 44
+  },
+  "Symphony": {
+   "genre": "Symphony",
+   "http_status": 200,
+   "stations": 70
+  },
+  "Talk": {
+   "genre": "Talk",
+   "http_status": 200,
+   "stations": 200
+  },
+  "Tamil": {
+   "genre": "Tamil",
+   "http_status": 200,
+   "stations": 27
+  },
+  "Tango": {
+   "genre": "Tango",
+   "http_status": 200,
+   "stations": 37
+  },
+  "Techno": {
+   "genre": "Techno",
+   "http_status": 200,
+   "stations": 200
+  },
+  "Technology": {
+   "genre": "Technology",
+   "http_status": 200,
+   "stations": 5
+  },
+  "Teen Pop": {
+   "genre": "Teen Pop",
+   "http_status": 200,
+   "stations": 12
+  },
+  "Tejano": {
+   "genre": "Tejano",
+   "http_status": 200,
+   "stations": 7
+  },
+  "Themes": {
+   "genre": "Themes",
+   "http_status": 200,
+   "stations": 200
+  },
+  "Thrash Metal": {
+   "genre": "Thrash Metal",
+   "http_status": 200,
+   "stations": 37
+  },
+  "Top 40": {
+   "genre": "Top 40",
+   "http_status": 200,
+   "stations": 200
+  },
+  "Traditional Folk": {
+   "genre": "Traditional Folk",
+   "http_status": 200,
+   "stations": 11
+  },
+  "Traditional Gospel": {
+   "genre": "Traditional Gospel",
+   "http_status": 200,
+   "stations": 5
+  },
+  "Trance": {
+   "genre": "Trance",
+   "http_status": 200,
+   "stations": 200
+  },
+  "Travel Mix": {
+   "genre": "Travel Mix",
+   "http_status": 200,
+   "stations": 0
+  },
+  "Tribal": {
+   "genre": "Tribal",
+   "http_status": 200,
+   "stations": 23
+  },
+  "Tribute": {
+   "genre": "Tribute",
+   "http_status": 200,
+   "stations": 1
+  },
+  "Trip Hop": {
+   "genre": "Trip Hop",
+   "http_status": 200,
+   "stations": 196
+  },
+  "Trippy": {
+   "genre": "Trippy",
+   "http_status": 200,
+   "stations": 0
+  },
+  "Tropicalia": {
+   "genre": "Tropicalia",
+   "http_status": 200,
+   "stations": 18
+  },
+  "Turkish": {
+   "genre": "Turkish",
+   "http_status": 200,
+   "stations": 9
+  },
+  "Turntablism": {
+   "genre": "Turntablism",
+   "http_status": 200,
+   "stations": 1
+  },
+  "Underground Hip Hop": {
+   "genre": "Underground Hip Hop",
+   "http_status": 200,
+   "stations": 12
+  },
+  "Urban Contemporary": {
+   "genre": "Urban Contemporary",
+   "http_status": 200,
+   "stations": 195
+  },
+  "Valentine": {
+   "genre": "Valentine",
+   "http_status": 200,
+   "stations": 0
+  },
+  "Video Game Music": {
+   "genre": "Video Game Music",
+   "http_status": 200,
+   "stations": 30
+  },
+  "Vocal Jazz": {
+   "genre": "Vocal Jazz",
+   "http_status": 200,
+   "stations": 23
+  },
+  "Weather": {
+   "genre": "Weather",
+   "http_status": 200,
+   "stations": 33
+  },
+  "Wedding": {
+   "genre": "Wedding",
+   "http_status": 200,
+   "stations": 0
+  },
+  "West Coast Rap": {
+   "genre": "West Coast Rap",
+   "http_status": 200,
+   "stations": 0
+  },
+  "Western": {
+   "genre": "Western",
+   "http_status": 200,
+   "stations": 1
+  },
+  "Winter": {
+   "genre": "Winter",
+   "http_status": 200,
+   "stations": 0
+  },
+  "Work Mix": {
+   "genre": "Work Mix",
+   "http_status": 200,
+   "stations": 11
+  },
+  "World Folk": {
+   "genre": "World Folk",
+   "http_status": 200,
+   "stations": 57
+  },
+  "World Fusion": {
+   "genre": "World Fusion",
+   "http_status": 200,
+   "stations": 4
+  },
+  "World Pop": {
+   "genre": "World Pop",
+   "http_status": 200,
+   "stations": 28
+  },
+  "Worldbeat": {
+   "genre": "Worldbeat",
+   "http_status": 200,
+   "stations": 120
+  },
+  "Xtreme": {
+   "genre": "Xtreme",
+   "http_status": 200,
+   "stations": 2
+  },
+  "Zouk": {
+   "genre": "Zouk",
+   "http_status": 200,
+   "stations": 154
+  }
+ },
+ "started_at": "2026-10-26T16:25:42Z",
+ "top_http_status": 200,
+ "streamurl_ids_total": 7262,
+ "streamurl_ids_remaining_this_run": 5000,
+ "finished_at": "2026-10-26T17:01:18Z"
+}

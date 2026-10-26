@@ -1,0 +1,32 @@
+[
+ {
+  "ID": 99405469,
+  "Name": "The Foxhole Internet Radio Station - Valkyrie Radio",
+  "Format": "",
+  "Bitrate": 0,
+  "Genre": "Patriotic",
+  "CurrentTrack": "",
+  "Listeners": 0,
+  "IsRadionomy": false,
+  "IceUrl": "http://www.foxholeinternetradio.com/",
+  "StreamUrl": null,
+  "AACEnabled": 0,
+  "IsPlaying": false,
+  "IsAACEnabled": false
+ },
+ {
+  "ID": 99445712,
+  "Name": "Haiti -Stream Channel",
+  "Format": "",
+  "Bitrate": 0,
+  "Genre": "Patriotic",
+  "CurrentTrack": "",
+  "Listeners": 0,
+  "IsRadionomy": false,
+  "IceUrl": "",
+  "StreamUrl": null,
+  "AACEnabled": 0,
+  "IsPlaying": false,
+  "IsAACEnabled": false
+ }
+]

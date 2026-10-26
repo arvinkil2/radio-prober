@@ -1,0 +1,67 @@
+name: platform-fetch
+
+# Manual dispatch only. Runs the platform fetch stages on a GitHub
+# Actions runner (the research machine must never fetch these hosts:
+# every novel destination from an agent-launched process raises a user
+# approval prompt there). Results commit back under platform-results/,
+# the same pattern as probe.yml.
+#
+# Stages: laut = one GET of api.laut.fm/stations plus the queue join;
+# shoutcast = the 112 directory genres not banked in 2026-10, Top, then
+# a capped GetStreamUrl sweep (checkpointed, rerun to resume);
+# rcast = explicit not-implemented stub; all = laut + shoutcast + stub.
+
+on:
+  workflow_dispatch:
+    inputs:
+      stage:
+        description: "Fetch stage to run"
+        type: choice
+        options: [all, laut, shoutcast, rcast]
+        default: all
+      streamurl_cap:
+        description: "Max SHOUTcast GetStreamUrl lookups this run"
+        type: string
+        default: "5000"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: platform-fetch
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Fetch platform data
+        env:
+          PLATFORM_TIME_BUDGET: "2700"
+          PLATFORM_STREAMURL_CAP: ${{ inputs.streamurl_cap }}
+        run: python3 platform_fetch.py --stage ${{ inputs.stage }}
+      - name: Join laut.fm payload against the queue
+        if: ${{ inputs.stage == 'all' || inputs.stage == 'laut' }}
+        run: |
+          if [ -f platform-results/laut_stations.json ]; then
+            python3 platform_join_laut.py \
+              --api platform-results/laut_stations.json
+          else
+            echo "no laut payload this run; join skipped"
+          fi
+      - name: Commit results
+        run: |
+          git config user.name "radio-prober"
+          git config user.email "radio-prober@localhost"
+          git add platform-results/
+          if git diff --cached --quiet; then
+            echo "no new platform results"
+          else
+            git commit -m "platform fetch ${{ inputs.stage }} $(date -u +%FT%TZ)"
+            git push
+          fi
